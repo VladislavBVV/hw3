@@ -4,7 +4,7 @@
     --accent: #2196F3;
     --cardsbcg: #FFFFFF;
     --teambcg: #F5F4FA;
-    --headerbcg: #FFFFFF;
+    --headerbgc: #FFFFFF;
     --herobcg: #2F303A;
     --solutionsbcg: #FFFFFF;
     --worksbcg: #FFFFFF;
@@ -15,9 +15,12 @@ body {
    font-family: "Roboto", sans-serif;
     color: #757575;
     background-color: #FFF;
+
 }
 
 ul {
+    padding: 0px;
+    margin: 0px;
     list-style:none;
 }
 
@@ -43,7 +46,8 @@ ul {
 
 
 .header {
-    background-color: var(--headerbsg) ;
+    background-color: var(--headerbgc);
+    
 }
 
 .logo {
@@ -67,9 +71,9 @@ letter-spacing: 0.03em;
 color: #000000;
 }
 
-.header {
+/* .header {
     background-color:#FFFFFF;
-}
+} */
 
 /* site-nav */
 
@@ -108,7 +112,15 @@ text-decoration: none;
 
 /* hero */
 
+.hero {    
+    text-align: center;
+    background: var(--herobcg);
+}
+
 .hero-title {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
@@ -118,10 +130,7 @@ text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.hero {    
-    text-align: center;
-    background: var(--herobcg);
-}
+
 
 .button {
     display: inline-block;
