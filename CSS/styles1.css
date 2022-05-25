@@ -24,6 +24,16 @@ ul {
     list-style:none;
 }
 
+h2 {
+    margin-top: 0px;
+}  
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 9.4px;
+}
+
+
 /* цвет основого текста параграфов #757575 */
 
 /* цвет заголовков #212121 */
@@ -113,6 +123,8 @@ text-decoration: none;
 /* hero */
 
 .hero {    
+    /* height: 600px; */
+    padding: 200px 287px;
     text-align: center;
     background: var(--herobcg);
 }
@@ -149,11 +161,22 @@ font-family: inherit;
 
 /* Наши преимущества section solutions */
 
-.solutions {
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--solutionsbcg);
 }
 
+.solutionspar {
+    display: flex;
+    margin-bottom: 94px;
+}
+
+.solutionspar .item + .item{
+    margin-left: 30px;
+}
 .solutions-title {
+
 color: var(--titletextcolor);
 }
 
@@ -162,8 +185,18 @@ color: var(--titletextcolor);
 }
 
 .section-title {
+    margin-bottom: 50px;
     color: var(--titletextcolor);
     text-align: center;
+}
+
+.whatwedo {
+    display: flex;
+}
+
+.whatwedo .item + .item{
+/* margin: 0 auto;
+    margin-left: 30px; */
 }
 
 /* наша команда */
@@ -177,10 +210,15 @@ color: var(--titletextcolor);
 }
 
 .cards {
+    display:inline-block;
+    border-radius: 0px 0px 4px 4px;
     background-color: white;
 }
 
 .team .upperphotounderline {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
     font-weight: 500;
 font-size: 16px;
 line-height: 1,9;
@@ -188,7 +226,9 @@ line-height: 1,9;
 color: var(--titletextcolor)
 }
 
-.bottomphotounderline {
+.team .bottomphotounderline {
+    margin-bottom: 30px;
+    text-align: center;
     color: var(--paragraphtextcolor);
 }
 
@@ -211,6 +251,12 @@ line-height: 2;
 letter-spacing: 0.06em;
 
 color: var(--titletextcolor)
+}
+
+.works-list .bottomphotounderline {
+    margin-bottom: 30px;
+
+    color: var(--paragraphtextcolor);
 }
 
 /* footer */
