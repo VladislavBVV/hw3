@@ -44,6 +44,7 @@ h3 {
 
 }
 
+/* Header */
 
 
 .header {
@@ -51,6 +52,7 @@ h3 {
     background-color: var(--headerbgc);
     
 }
+
 
 .logo {
     font-family: 'Raleway';
@@ -74,7 +76,19 @@ color: #000000;
 }
 
 
+.nav {
+    display: flex;
+}
 
+.site-nav .item {
+    display: inline-block;
+    outline: 1px solid tomato;
+    
+}
+
+.site-nav .item + .item {
+    margin-left: 50px;
+}
 
 .site-nav a {
    text-decoration: none;
@@ -99,7 +113,13 @@ text-decoration: none;
 }
 
 .link-current {
-    color: var(--accent)    
+    color: var(--accent);
+    text-decoration: none;    
+}
+
+.contacts .item {
+display: inline-block;
+outline: 1px solid tomato;
 }
 
 .contacts .link {
@@ -188,6 +208,7 @@ color: var(--titletextcolor);
 
 .whatwedo {
     display: flex;
+
 }
 
 .whatwedo .item + .item{
