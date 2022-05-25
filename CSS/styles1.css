@@ -56,6 +56,7 @@ h3 {
 
 
 .header {
+    border-bottom: 1px solid #ECECEC;
     background-color: var(--headerbgc);
     
 }
@@ -123,8 +124,6 @@ text-decoration: none;
 /* hero */
 
 .hero {    
-    /* height: 600px; */
-    padding: 200px 287px;
     text-align: center;
     background: var(--herobcg);
 }
@@ -211,6 +210,7 @@ color: var(--titletextcolor);
 
 .cards {
     display:inline-block;
+    
     border-radius: 0px 0px 4px 4px;
     background-color: white;
 }
@@ -268,8 +268,15 @@ color: var(--titletextcolor)
 
 /* footer logo */
 
+
+
 .footer a {
     text-decoration: none;
+}
+
+.mainlogo {
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -297,6 +304,8 @@ color: #FFFFFF;
 }
 
 .streetadres {
+    display: inline-block;
+    margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
 font-size: 14px;
@@ -323,6 +332,11 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF99;
 text-decoration: none;
+}
+
+.mail {
+    display: inline-block;
+    margin-bottom: 9px;
 }
 
 .mail:hover {
