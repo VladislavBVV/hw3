@@ -34,15 +34,6 @@ h3 {
 }
 
 
-/* цвет основого текста параграфов #757575 */
-
-/* цвет заголовков #212121 */
-
-/* цвет хедера #ECECEC */
-
-/* цвет решения для бизнеса #2F303A */
-
-/* цвет чем мы занимаемся #2F303A */
 
 .container {
     width: 1170px;
@@ -82,15 +73,13 @@ letter-spacing: 0.03em;
 color: #000000;
 }
 
-/* .header {
-    background-color:#FFFFFF;
-} */
 
-/* site-nav */
+
 
 .site-nav a {
-    text-decoration: none;
+   text-decoration: none;
 }
+
 
 .link {
 font-weight: 500;
@@ -141,10 +130,16 @@ text-transform: uppercase;
     color: #FFFFFF;
 }
 
-
+.hero .button {
+    
+    min-width: 200px;
+    padding: 10px 32px;  
+    border: 0px solid transparent;
+    text-align: center;
+}
 
 .button {
-    display: inline-block;
+    /* display: inline-block; */
     font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
@@ -154,9 +149,11 @@ font-family: inherit;
 
     color: #FFFFFF;
     background-color: var(--accent);
-
+    border-radius: 4px;
     cursor: pointer;
 }
+
+
 
 /* Наши преимущества section solutions */
 
@@ -236,11 +233,24 @@ color: var(--titletextcolor)
 
 /* works */
 
+/* Portfolio button */
+
+.nav-portfolio .button {
+    padding: 6px 22px;
+    border: 1px solid transparent;
+
+
+}
+
+
+
 .main-portfolio {
     background-color: var(--worksbcg);
 }
 
 .nav-portfolio {
+    margin-bottom: 50px;
+    display: flex;
     background-color: #FFFFFF;
 }
 
