@@ -36,7 +36,7 @@ h3 {
 
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -76,22 +76,24 @@ color: #000000;
 }
 
 
-.nav {
+.site-nav {
     display: flex;
+    align-items: center;
 }
 
 .site-nav .item {
     display: inline-block;
+    padding: 0px;
     outline: 1px solid tomato;
-    
 }
 
 .site-nav .item + .item {
     margin-left: 50px;
 }
 
-.site-nav a {
+.logo-header {
    text-decoration: none;
+   margin-right: 50px;
 }
 
 
@@ -120,6 +122,15 @@ text-decoration: none;
 .contacts .item {
 display: inline-block;
 outline: 1px solid tomato;
+}
+
+.contactsinfo {
+    
+    margin-left: auto;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
 }
 
 .contacts .link {
@@ -188,6 +199,12 @@ font-family: inherit;
     margin-bottom: 94px;
 }
 
+.solutionspar .item {
+    width: 270px;
+    
+}
+
+
 .solutionspar .item + .item{
     margin-left: 30px;
 }
@@ -226,7 +243,7 @@ color: var(--titletextcolor);
     color: var(--titletextcolor)   
 }
 
-.cards {
+.team-list .cards {
     display:inline-block;
     
     border-radius: 0px 0px 4px 4px;
@@ -260,10 +277,7 @@ color: var(--titletextcolor)
     padding: 6px 22px;
     border: 1px solid transparent;
 
-
 }
-
-
 
 .main-portfolio {
     background-color: var(--worksbcg);
@@ -274,6 +288,23 @@ color: var(--titletextcolor)
     display: flex;
     background-color: #FFFFFF;
 }
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.works-list .cards {
+    margin-right: 30px;
+}
+
+.works-list .cards:nth-child(3n) {
+margin-right: 0;
+}
+
+
+
 
 .works-list .upperphotounderline {
     font-weight: 700;
