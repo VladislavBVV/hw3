@@ -44,13 +44,41 @@ h3 {
 
 }
 
-/* Header */
+/* ---------Header---------- */
 
 
 .header {
     border-bottom: 1px solid #ECECEC;
     background-color: var(--headerbgc);
     
+}
+
+
+
+.header .container {
+    display: flex;
+    height: 60px;
+    
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav .link {
+    display: inline-block;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 
@@ -76,13 +104,9 @@ color: #000000;
 }
 
 
-.site-nav {
-    display: flex;
-    align-items: center;
-}
+
 
 .site-nav .item {
-    display: inline-block;
     padding: 0px;
     outline: 1px solid tomato;
 }
@@ -120,7 +144,6 @@ text-decoration: none;
 }
 
 .contacts .item {
-display: inline-block;
 outline: 1px solid tomato;
 }
 
