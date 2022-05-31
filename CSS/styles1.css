@@ -170,18 +170,19 @@ padding-bottom: 30px;
 
 }
 
-.contacts .mail::before {
+.icon-mail::before {
     content: "";
     width: 20px;
     height: 20px;
     margin-right: 10px;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     background-image: url(../IMG/envelope\ \(hover\).svg);
 }
 
-.phone::before {
+.icon-phone::before {
     content: "";
     width: 20px;
     height: 20px;
@@ -192,10 +193,7 @@ padding-bottom: 30px;
     background-image: url(../IMG/smartphone.svg);
 }
 
-.phone .item::before:hover,
-.phone .item::before:focus {
-    color: var(--accent)  
-}
+
 .contacts .item + .item {
     margin-left: 50px;
 }
