@@ -330,55 +330,41 @@ font-family: inherit;
 
 .solutionspar {
     display: flex;
+    outline: 1px solid tomato;
 
 }
 
-.solutionspar .item {
-    display: block;
-    width: 270px;
-    
-}
 
-.solutionspar .item::before {
-    display: block;
-    min-height: 120px;
-    content: "";
-    height: 40px;
-    margin-right: 10px;
-    margin: 0;
+
+.solutions-item {
     background-color: #F5F4FA;
+    align-items: center;
+    justify-content: center;
 }
 
-.icon-antenna::before {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../IMG/antenna.svg);
+.solutions-box {
+    display:block;
+    outline: 1px solid tomato;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+      
 }
 
-.icon-clock::before {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../IMG/clock.svg);
-}
-
-.icon-diagramma::before {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../IMG/vector.svg);
-}
-
-.icon-austronaut::before {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../IMG/astronaut.svg);
+.solutions-item {
+    background-color: #F5F4FA;
+    margin-right: 0px;
+   
 }
 
 
-
-
-.solutionspar .item + .item{
-    margin-left: 30px;
+.solutions-box:last-child {
+    margin-right: 0px;
 }
+
+
+
 .solutions-title {
 color: var(--titletextcolor);
 font-weight: 700;
@@ -393,6 +379,13 @@ text-transform: uppercase;
 line-height: 1.71;
     color: var(--paragraphtextcolor);
 }
+
+
+
+/* ------------------------What we do--------------------- */
+
+
+
 
 .section-title {
     margin-bottom: 50px;
